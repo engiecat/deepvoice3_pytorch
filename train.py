@@ -397,7 +397,7 @@ def eval_model(global_step, writer, device, model, checkpoint_dir, ismultispeake
     model_eval.load_state_dict(model.state_dict())
 
     # hard coded
-    speaker_ids = [0, 3, 16] if ismultispeaker else [None]
+    speaker_ids = [0, 1, 10] if ismultispeaker else [None]
     for speaker_id in speaker_ids:
         speaker_str = "multispeaker{}".format(speaker_id) if speaker_id is not None else "single"
 
