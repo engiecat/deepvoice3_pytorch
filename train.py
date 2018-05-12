@@ -386,14 +386,6 @@ def eval_model(global_step, writer, device, model, checkpoint_dir, ismultispeake
         "Please call Stella.",
         "Some have accepted this as a miracle without any physical explanation.",
     ]
-    texts = [
-        "Scientists at the CERN laboratory say they have discovered a new particle.",
-        "He had it all backwards. Arya, the lone wolf, still lived, but the wolves of the pack had been taken and slain and skinned.",
-        "Mother of dragons, Daenerys thought. Mother of monsters. What have I unleashed upon the world?",
-        "Generative adversarial network or variational auto-encoder.",
-        "Please call Stella.",
-        "Some have accepted this as a miracle without any physical explanation.",
-    ]
     import synthesis
     synthesis._frontend = _frontend
 
